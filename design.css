@@ -1,0 +1,87 @@
+body{
+text-align:center
+}
+#kopfzeile {
+  text-align: center;
+background-color:purple;
+border-bottom 1px solid black;
+}
+#fusszeile {
+  text-align: center;
+clear:both;
+background-color:purple;
+border-top 2px solid black;
+}
+#seitenbereich {
+text-align:center;
+margin:0 auto;
+width:900px;
+background-color:silver;
+}
+#nav {
+   width: 200px;                   /* Breite des Bereichs */
+   text-align: left;               /* Textausrichtung     */
+   margin-top: 10px;               /* Außenabstand oben   */
+   margin-bottom: 10px;            /* Außenabstand unten  */
+   margin-left: 20px;              /* Außenabstand links  */
+   margin-right: 15px;             /* Außenabstand rechts */
+}
+#nav ul {
+  list-style: none;               /* keine Aufzählungspunkte */
+}
+#nav li {
+  float:right;                     /* Anordnung links   */
+   margin-left:15px;               /* Außenabstand links */
+   width:177px;                     /* Breite des Links  */
+
+   background-color: black;       /* Hintergrundfarbe   */
+   border-top: 1px black solid;    /* Rahmen Auflistungspunkt oben */
+   border-left: 25px purple solid; /* Rahmen Auflistungspunkt links */
+   border-bottom: 1px black solid;   /* Rahmen unten  */
+   border-right: 2px black solid;   /* Rahmen rechts  */
+   margin-top: 10px;               /* Außenabstand oben  */
+   padding-top: 8px;               /* Innenabstand oben  */
+   padding-bottom: 8px;            /* Innenabstand unten */
+   padding-left: 8px;              /* Innenabstand links */
+   padding-right: 8px;             /* Innenabstand rechts */
+}
+h1 {
+  color: purple;
+}
+h2 {
+  color:mediumorchid;
+}
+p {
+  color:orchid;
+}
+.float-left {float:left;
+margin-left:5px;
+margin-right:100px;
+width:130px;
+}
+#navi {
+    float:left;
+    background-color:thistle;
+    width:  150px;
+}
+
+#inhalte {
+  background-color:lightblue;
+ margin-left: 100px;
+ width:  300px;
+ height: 200px;
+}
+#infokasten {
+  float:left;;
+  margin-left: 600px;
+  width: 200px;
+  height: 80px;
+  background-color:mediumvioletred;
+}
+.bildhintergrund{
+  background-color: black;
+  width: 650px;
+  height: auto;
+  margin:0 auto;
+  padding:20px;
+}
